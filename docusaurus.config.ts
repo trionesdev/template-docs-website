@@ -106,9 +106,15 @@ const config: Config = {
                     type: 'dropdown',
                     label: '服务端',
                     position: 'right',
-                    items: [{label: 'Spring Boot(JAVA)工程', to: '/docs/backend/spring-boot'}]
+                    items: [
+                        {label: 'Spring Boot', to: '/docs/backend/spring-boot'}
+                    ]
                 },
-                {label: '前端', position: 'right', items: [{label: 'React Antd', to: '/docs/frontend/react-antd'}]},
+                {
+                    label: '前端', position: 'right', items: [
+                        {label: 'Antd', to: '/docs/frontend/react-antd'}
+                    ]
+                },
                 {
                     href: 'https://github.com/facebook/docusaurus',
                     label: 'GitHub',
