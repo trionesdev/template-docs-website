@@ -112,7 +112,7 @@ const config: Config = {
                 },
                 {
                     label: '前端', position: 'right', items: [
-                        {label: 'Antd', to: '/docs/frontend/react-antd'}
+                        {label: 'Antd React', to: '/docs/frontend/react-antd'}
                     ]
                 },
                 {
