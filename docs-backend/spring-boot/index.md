@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+title: Spring Boot Backend
 ---
 
-# TrionesDev Spring Boot Admin Backend
+# TrionesDev Admin Backend(Spring Boot)
 
 从早期的MVC三层架构到现在的DDD架构，新的架构思想一直在变化，但是没有哪一种架构方案是可以满足所有场景的。三层架构，会导致业务耦合严重，维护困难，DDD架构，又过于复杂，对团队要求很高，并且一般项目并不需要用DDD的架构，我们从设计思想，以及使用习惯的角度，既要满足业务领域解耦，又不希望过多改变当前用户的使用习惯，设计了这个工程模板。
 
