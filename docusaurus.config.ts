@@ -135,20 +135,24 @@ const config: Config = {
                     ],
                 },
                 {
-                    title: '其他',
+                    title: '北斗系列',
                     items: [
-                        {
-                            label: '天玑物联网平台',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                        },
                         {
                             label: '天枢信息化基座',
                             href: 'https://discordapp.com/invite/docusaurus',
                         },
                         {
+                            label: '天玑物联网平台',
+                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                        },
+                        {
                             label: '玉衡大数据平台',
                             href: 'https://x.com/docusaurus',
                         },
+                        {
+                            label: '玉衡即时通讯',
+                            href: 'https://x.com/docusaurus',
+                        }
                     ],
                 },
                 {

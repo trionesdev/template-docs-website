@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # 登录鉴权
 
 > 默认基于jwt进行鉴权，
