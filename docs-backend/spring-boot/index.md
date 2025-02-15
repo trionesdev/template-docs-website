@@ -2,8 +2,8 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# TrionesDev Spring Boot Admin Backend
 
-Docusaurus can manage multiple versions of your docs.
+从早期的MVC三层架构到现在的DDD架构，新的架构思想一直在变化，但是没有哪一种架构方案是可以满足所有场景的。三层架构，会导致业务耦合严重，维护困难，DDD架构，又过于复杂，对团队要求很高，并且一般项目并不需要用DDD的架构，我们从设计思想，以及使用习惯的角度，既要满足业务领域解耦，又不希望过多改变当前用户的使用习惯，设计了这个工程模板。
 
-## Create a docs version
+该工程模板当前主要适配管理后台业务，所以主要的代码实现是以单一租户场景为主，当然我们在实现的同时也考虑了很多其他业务场景的扩展需求。
