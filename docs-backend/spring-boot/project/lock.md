@@ -17,9 +17,7 @@ void test()
     try {
         Thread.sleep(3000);
         System.out.println("test end:" + LocalDateTime.now().toString());
-    } catch (InterruptedException
-    e
-)
+    } catch (InterruptedExceptione)
     {
         throw new RuntimeException(e);
     }
