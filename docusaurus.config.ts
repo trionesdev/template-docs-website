@@ -17,7 +17,7 @@ const config: Config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
+    organizationName: 'TrionesDev', // Usually your GitHub org/user name.
     projectName: 'docusaurus', // Usually your repo name.
 
     onBrokenLinks: 'throw',
@@ -92,13 +92,13 @@ const config: Config = {
                 src: 'img/logo.svg',
             },
             items: [
-                {
-                    type: 'docSidebar',
-                    sidebarId: 'tutorialSidebar',
-                    position: 'left',
-                    label: 'Tutorial',
-                },
-                {to: '/blog', label: 'Blog', position: 'left'},
+                // {
+                //     type: 'docSidebar',
+                //     sidebarId: 'tutorialSidebar',
+                //     position: 'left',
+                //     label: 'Tutorial',
+                // },
+                // {to: '/blog', label: 'Blog', position: 'left'},
                 {
                     to: '/docs/intro', label: '指南', position: 'right'
                 },
@@ -114,12 +114,7 @@ const config: Config = {
                     label: '前端', position: 'right', items: [
                         {label: 'React Antd', to: '/docs/frontend/react-antd'}
                     ]
-                },
-                {
-                    href: 'https://github.com/facebook/docusaurus',
-                    label: 'GitHub',
-                    position: 'right',
-                },
+                }
             ],
         },
         footer: {
@@ -169,6 +164,10 @@ const config: Config = {
                     ],
                 },
             ],
+            logo: {
+                alt: 'TrionesDev Logo',
+                src: 'img/logo.svg',
+            },
             copyright: `Copyright © ${new Date().getFullYear()} TrionesDev, Inc. Built with Docusaurus.`,
         },
         prism: {
