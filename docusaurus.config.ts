@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: '北斗快速开发框架',
+    title: 'Triones快速开发模板',
     tagline: '复杂的事情简单化，简单事情标准化',
     favicon: 'img/favicon.ico',
 
@@ -18,7 +18,7 @@ const config: Config = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'TrionesDev', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    projectName: 'template', // Usually your repo name.
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -100,7 +100,7 @@ const config: Config = {
                 // },
                 // {to: '/blog', label: 'Blog', position: 'left'},
                 {
-                    to: '/docs/intro', label: '指南', position: 'right'
+                    to: '/docs/', label: '指南', position: 'right'
                 },
                 {
                     type: 'dropdown',
@@ -121,10 +121,10 @@ const config: Config = {
             style: 'dark',
             links: [
                 {
-                    title: 'Docs',
+                    title: '技术社区',
                     items: [
                         {
-                            label: '书阙社区',
+                            label: '书阙',
                             href: 'https://www.ithere.net',
                         },
                     ],
