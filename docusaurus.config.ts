@@ -129,45 +129,32 @@ const config: Config = {
                         },
                     ],
                 },
-                {
-                    title: '北斗系列',
-                    items: [
-                        {
-                            label: '天枢信息化基座',
-                            href: 'https://discordapp.com/invite/docusaurus',
-                        },
-                        {
-                            label: '天玑物联网平台',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                        },
-                        {
-                            label: '玉衡大数据平台',
-                            href: 'https://x.com/docusaurus',
-                        },
-                        {
-                            label: '玉衡即时通讯',
-                            href: 'https://x.com/docusaurus',
-                        }
-                    ],
-                },
-                {
-                    title: 'More',
-                    items: [
-                        {
-                            label: 'Blog',
-                            to: '/blog',
-                        },
-                        {
-                            label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
-                        },
-                    ],
-                },
+                // {
+                //     title: '北斗系列',
+                //     items: [
+                //         {
+                //             label: '天枢信息化基座',
+                //             href: 'https://discordapp.com/invite/docusaurus',
+                //         },
+                //         {
+                //             label: '天玑物联网平台',
+                //             href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                //         },
+                //         {
+                //             label: '玉衡大数据平台',
+                //             href: 'https://x.com/docusaurus',
+                //         },
+                //         {
+                //             label: '玉衡即时通讯',
+                //             href: 'https://x.com/docusaurus',
+                //         }
+                //     ],
+                // },
             ],
-            logo: {
-                alt: 'TrionesDev Logo',
-                src: 'img/logo.svg',
-            },
+            // logo: {
+            //     alt: 'TrionesDev Logo',
+            //     src: 'img/logo.svg',
+            // },
             copyright: `Copyright © ${new Date().getFullYear()} TrionesDev, Inc. Built with Docusaurus.`,
         },
         prism: {
