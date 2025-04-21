@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-    title: 'Triones快速开发模板',
+    title: 'TrionesDev',
     tagline: '复杂的事情简单化，简单事情标准化',
     favicon: 'img/favicon.ico',
 
